@@ -34,3 +34,6 @@ frutas.Eliminar("Banana");
 console.log(frutas);
 frutas.EliminarPares("Banana");
 console.log(frutas);
+
+// NOMBRE: YAMIL PEREIRA MENDOZA
+// CI: 8512495
