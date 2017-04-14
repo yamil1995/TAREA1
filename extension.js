@@ -7,5 +7,16 @@ Array.prototype.Buscar = function(pala){
 	} 
 	return false;
 }
+Array.prototype.Eliminar= function(pala) {
+	for (i = 0; i < frutas.length; i++) {
+    	if(frutas[i]==pala){
+    		frutas.splice(i, 1);
+    		break;
+    	}
+	} 
+}
+
 
 console.log(frutas.Buscar("Banana"));
+frutas.Eliminar("Banana");
+console.log(frutas);
